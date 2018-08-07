@@ -9,7 +9,7 @@ import javax.ws.rs.core.Application;
 import com.jaxrs.resources.BillingService;
 @ApplicationPath("/api")
 public class MyApplication extends Application {
-	private Set<Object> singletons;
+	/*private Set<Object> singletons;
 	private Set<Class<?>> classes;
 	public MyApplication()
 	{
@@ -26,5 +26,5 @@ public class MyApplication extends Application {
 	public Set<Class<?>> getClasses()
 	{
 		return classes;
-	}
+	}*/
 }
